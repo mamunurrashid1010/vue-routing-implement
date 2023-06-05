@@ -3,8 +3,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <div id="pp">
       <h2>Vue Routing Implement</h2>
+
+    <router-view/>
   </div>
 </template>
 
