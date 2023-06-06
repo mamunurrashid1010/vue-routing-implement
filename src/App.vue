@@ -1,11 +1,12 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "./components/navbar/Navbar.vue";
 </script>
 
 <template>
-  <div id="pp">
+  <div id="app">
       <h2>Vue Routing Implement</h2>
-
+      <Navbar/>
     <router-view/>
   </div>
 </template>
